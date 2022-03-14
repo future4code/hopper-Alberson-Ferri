@@ -11,3 +11,23 @@
  * 
  */
 
+const usuario1 = [];
+const computador1 = [];
+const carta1 = [];
+
+   
+const Menssagem1 =  "Boas vindas ao jogo de Blackjack!"
+console.log(Menssagem1)
+
+let novaRodada1 = confirm ("Quer iniciar uma nova rodada");
+
+if(!novaRodada1) {
+   alert("O Jogo Acabou!!!")
+} 
+else {
+novaRodada === true;
+const carta = comprarCarta();
+console.log("Usuário", carta.texto)
+console.log("Computador", carta.valor)
+}
+
