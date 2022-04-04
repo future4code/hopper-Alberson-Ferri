@@ -297,3 +297,64 @@ ul li:active{
  /* Portifolio */
 
 
+ .portfolio{
+     display: flex;
+     justify-content: space-between;
+     margin-left: 50px;
+     margin-right: 50px;
+     margin-top: 100px;
+
+ }
+
+
+.box1, .box2, .box3, .box4{
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(134, 133, 206, 0.801);
+    box-shadow: 5px 5px 10px 5px rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.box1{
+    background-image: URL(img/i2061.webp);
+}
+
+.box2{
+    background-image: URL(img/pagina-inicial-home-netflix-designe-1.png);
+}
+
+.box3{
+    background-image: url(./img/2022-04-03.png);
+}
+
+.box4{
+    background-image: url(./img/pagina-inicial-de-login-de-boas-vindas_23-2148291984.webp);
+}
+
+.box1 span, 
+.box2 span,  
+.box3 span,  
+.box4 span{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #77e919;
+    display: flex;
+    justify-content: center;
+    font-family: calibri;
+    font-weight: bold;
+    margin-top: 10px;
+    align-items: center;
+    
+
+}  
+
+
+/*Fale Comigo*/
+
